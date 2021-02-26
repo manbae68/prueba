@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+Prueba git
+>>>>>>> 05852f17ad81f2fa7aad1633433ecbc6cc711422
 use evadoc;
 
 create table rol (
