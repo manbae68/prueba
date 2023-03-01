@@ -4,7 +4,7 @@
 	$obj= new conectar();
 	$conexion=$obj->conexion();
 
-	$sql="SELECT * from usuario where usuario='admin'";
+	$sql="SELECT * from usuario where usuario='system'";
 	$result=mysqli_query($conexion,$sql);
 	$validar=0;
 	if(mysqli_num_rows($result) > 0){
